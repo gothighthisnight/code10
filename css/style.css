@@ -2,7 +2,6 @@
     box-sizing: border-box;
     font-family: "Golos Text";
     transition: 0.3s;
-    scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
     margin: 0;
