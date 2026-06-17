@@ -455,7 +455,7 @@ body {
     font-style: italic;
     opacity: 0.7;
 }
-
+/*
 .banner__download {
     display: flex;
     align-items: center;
@@ -475,7 +475,7 @@ body {
 
 .banner__download:hover {
     opacity: 1;
-}
+}*/
 
 .phi__info {
     display: flex;
@@ -507,4 +507,65 @@ body {
 
 .phi__text--right {
     text-align: right;
+}
+
+.form__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap);
+}
+
+.form__label {
+    font-weight: 600;
+    font-size: var(--font-size-label);
+}
+
+.form__label span {
+    color: var(--accent-light);
+}
+
+.form__text {
+    font-weight: 200;
+    font-size: var(--font-size-text);
+    color: var(--text-dark-white);
+}
+
+.form__text span {
+    color: var(--accent-light);
+}
+
+.form__list {
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--gap) * 0.5);
+}
+
+.form__item {
+    display: flex;
+    justify-content: space-between;
+    gap: calc(var(--gap) * 2);
+}
+
+.form__item-label {
+    color: var(--text-dark-white);
+    opacity: 0.7;
+    font-size: var(--font-size-external);
+}
+
+.form__item-text {
+    color: var(--text-dark-white);
+    text-align: right;
+    font-size: var(--font-size-external);
+}
+
+.form__item-link {
+    text-decoration: none;
+    color: var(--text-dark-white);
+    font-size: var(--font-size-external);
+}
+
+.form__item-link:hover {
+    color: var(--accent-light);
 }
